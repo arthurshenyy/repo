@@ -31,7 +31,14 @@ public class JsonParse {
 //        转换为string类型
         String s = JSON.toJSONString(user);
         System.out.println(s);
-
+		
+		
+		fsdfdsf
+		
+		sd
+		fastjsonsdf
+		
+		
     }
 
 //    String类型转换为User对象
