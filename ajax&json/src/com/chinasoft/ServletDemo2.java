@@ -10,9 +10,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+
 @WebServlet("/demo2")
 public class ServletDemo2 extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
         req.setCharacterEncoding("utf-8");
         String user = req.getParameter("user");
         System.out.println(user);
@@ -22,9 +24,10 @@ public class ServletDemo2 extends HttpServlet {
         resp.setContentType("application/json;charset=utf-8");
         resp.getWriter().write(JSON.toJSONString(u));
 
-
 //        List<User>
 //        Map<String,String[]>
 
+    }
 
+}
 
