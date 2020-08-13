@@ -20,6 +20,9 @@ public class ServletDemo2 extends HttpServlet {
         System.out.println(user);
         User u = JSON.parseObject(user, User.class);
         System.out.println(u);
+
+
+
 //        设置响应 让客户端以json的形式打开数据
         resp.setContentType("application/json;charset=utf-8");
         resp.getWriter().write(JSON.toJSONString(u));

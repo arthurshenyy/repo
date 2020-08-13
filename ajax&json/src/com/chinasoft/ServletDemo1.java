@@ -13,11 +13,11 @@ public class ServletDemo1 extends HttpServlet {
         req.setCharacterEncoding("utf-8");
         String name = req.getParameter("name");
         System.out.println(name);
-//        try {
-//            Thread.sleep(5000);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
+        System.out.println(11111111);
+        System.out.println(11111111);
+        System.out.println(11111111);
+        System.out.println(11111111);
+        System.out.println(11111111);
         System.out.println("接收到了请求....");
         resp.getWriter().write("hello world");
     }
