@@ -16,13 +16,17 @@ public class JsonParse {
     @Test
    public void test1(){
         User user = new User();
-        user.setId(1);
-        user.setName("java");
+       
         user.setAge(20);
         user.setChecked(true);
         user.setBirthday(new Date());
+		
+		ljjljlljlkkk
+		
 //      转为object类型的数据
         Object o = JSON.toJSON(user);
+		
+		oljljlj
         System.out.println(o);
 //        转换为string类型
         String s = JSON.toJSONString(user);
